@@ -1,0 +1,90 @@
+/* pages/hotplay/hotplay.wxss */
+.movieContainer {
+    padding: 15px;
+    border-bottom: .5px solid #ccc;
+}
+.movieItem{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.movieImg{
+  width:25%;
+  height:140px;
+  background:#eee;
+}
+.movieIntroduce{
+  width:55%;
+  justify-content: flex-start;
+  padding-left:15px;
+  padding-right:15px;
+}
+.itemtitle{
+  color:#444;
+  font-size:15px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}
+.gradeImg {
+    width: 25rpx;
+    height: 25rpx;
+}
+.gradecontainer{
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5rpx;
+    margin-bottom: 5rpx;
+}
+.gradeNum{
+    color: #999;
+    font-size: 12px;
+    margin-left: 8rpx;
+}
+.director{
+   color: #999;
+    font-size: 12px;
+    line-height: 17px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+.cast{
+     color: #999;
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+.movieDetail {
+    width: 20%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+}
+.watch {
+    font-size: 22rpx;
+    color: #ff3366;
+    margin-bottom: 20rpx;
+}
+.detailContainer {
+    width: 120rpx;
+    height: 55rpx;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ff3366;
+    border-radius: 7rpx;
+}
+.detailBtn {
+    font-size: 27rpx;
+    color: #ff3366;
+}
+.loadingImg {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+}

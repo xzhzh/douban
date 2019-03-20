@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/hotplay/hotplay",
+    "pages/find/find",
+    "pages/ranking/ranking",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "橙子电影",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/hotplay/hotplay",
+        "text": "热映",
+        "iconPath": "images/i_hot_play.png",
+        "selectedIconPath": "images/i_hot_play_foc.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "找片",
+        "iconPath": "images/i_find.png",
+        "selectedIconPath": "images/i_find_foc.png"
+      },
+      {
+        "pagePath": "pages/ranking/ranking",
+        "text": "排行",
+        "iconPath": "images/i_ranking.png",
+        "selectedIconPath": "images/i_ranking_foc.png"
+      }
+    ],
+    "color": "#818181",
+    "selectedColor": "#FF9933"
+  },
+  "debug": true
+
+}
