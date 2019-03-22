@@ -3,6 +3,7 @@
     "pages/hotplay/hotplay",
     "pages/find/find",
     "pages/ranking/ranking",
+    "pages/detail/detail",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -35,7 +36,7 @@
     ],
     "color": "#818181",
     "selectedColor": "#FF9933"
-  },
-  "debug": true
+  }
+ 
 
 }

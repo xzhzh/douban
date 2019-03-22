@@ -14,7 +14,7 @@ function getLocation() {
 }
 
 // 根据经纬度获取详细位置信息
-function loadCity(longitude, latitude) {
+function loadCity(longitude, latitude){
   wx.request({
     url: `https://api.map.baidu.com/geocoder/v2/?ak=vRMBKAuYo2cw3AloqUQjAxPd2wuLee4G=${latitude},${longitude}&output=json`,
     method: 'GET',

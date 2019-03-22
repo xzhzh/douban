@@ -87,11 +87,11 @@ function dramaContent(content = '', isShowAll = false) {
 function selectIcon(index) {
   switch (index) {
     case 0:
-      return '/pages/images/i_first.png';
+      return '/images/i_first.png';
     case 1:
-      return '/pages/images/i_second.png';
+      return '/images/i_second.png';
     case 2:
-      return '/pages/images/i_thirdly.png';
+      return '/images/i_thirdly.png';
   }
 }
 

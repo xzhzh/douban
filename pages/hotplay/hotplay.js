@@ -25,16 +25,17 @@ Page({
         'Content-Type': 'application/x-www-form-urlencoded'
       },
       success: function (res) {
-        console.log(res.data.subjects)
+        // console.log(res.data.subjects)
         _this.setData({
           hotPlay: [..._this.data.hotPlay, ...res.data.subjects]
         });
+        // console.log(_this.data.hotPlay)
         start += count;
         total = res.data.total;
 
         // 缓存数据
         start === 10 && wx.setStorageSync('hotMovies', _this.data.hotPlay.map(item => {
-          return { id: item.id, title: item.title }
+          return { id:item.id, title:item.title }
         }));
 
       },
@@ -64,6 +65,16 @@ Page({
   onReachBottom: function () {
     this.getHotPlayMovie(true);
   },
+  movieClick(e){
+    let id = e.currentTarget.dataset.id
+    // console.log(e)
+    wx.navigateTo({
+      url:`/pages/detail/detail?id=${id}`,
+    })
+
+    // console.log(e)
+
+  }
 
 
 

@@ -3,7 +3,7 @@
 <wxs src="./../../utils/format.wxs" module="format" />
 
 <view>
-  <view class="movieContainer" wx:for="{{hotPlay}}" wx:key="{{index}}">
+  <view class="movieContainer" wx:for="{{hotPlay}}" bindtap="movieClick" data-id='{{item.id}}'   wx:key="{{index}}">
     <view class='movieItem'>
       <image class='movieImg' src='{{item.images.medium}}' lazy-load />
       <view class="movieIntroduce">
